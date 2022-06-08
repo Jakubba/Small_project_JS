@@ -39,17 +39,20 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, .35);
     z-index: -1;
+    
 }
 h1 {
+    margin-left: 20px;
     margin-bottom: 30px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     transform: translateY(20vh);
 }
 .search {
+    margin-left: 20px;
     padding: 10px 20px;
     margin-bottom: 40px;
-    width: 100%;
+    width: 95%;
     font-size: 16px;
     border-radius: 5px;
     background-color: rgba(255,255,255,.85);
