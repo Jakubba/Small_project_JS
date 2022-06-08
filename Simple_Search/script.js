@@ -7,7 +7,7 @@ const searchEngine = e => {
  list.forEach(el => {
       const task = el.textContent;
 
-      if(tasl/toLowerCase().indexOf(text) !== -1){
+      if(task.toLowerCase().indexOf(text) !== -1){
           el.style.display = 'block'
       } else {
           el.style.display = 'none' 
